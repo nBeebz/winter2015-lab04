@@ -39,7 +39,7 @@ class Welcome extends Application {
 
         // and pass these on to the view
         $this->data['orders'] = $orders;
-        
+
         $this->render();
     }
 
